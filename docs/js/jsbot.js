@@ -70,7 +70,7 @@ function ClickOrPress(){
 
 $(document).ready(function() {
 
-	loadTemplate("rs-standard.rive");
+	loadTemplate("rs-standard.rive.md");
 
 	// The Enter key.
 	$("#message").keydown(function(e) {
