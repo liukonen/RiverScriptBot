@@ -10,7 +10,7 @@ function loadTemplate(template) {
 	if (localStorage.getItem(template + "expire") === null || localStorage.getItem(template + "expire") < new (Date))
 	{
 		$.ajax({
-			url: "./" + template,
+			url: "../" + template,
 				dataType: "text",	async: false,
 			error: function(jqXHR, textStatus, error) {window.alert(error);},
 			success: function(data, textStatus, jqXHR) {temp = data;}
