@@ -10,7 +10,7 @@ function loadTemplate(template) {
 	if (localStorage.getItem(template + "expire") === null || localStorage.getItem(template + "expire") < new (Date))
 	{
 		$.ajax({
-			url: "https://github.com/liukonen/RiverScriptBot/raw/master/docs/template/" + template,//"/template/" + template,
+			url: "./" + template,//"/template/" + template,
 				dataType: "text",	async: false,
 			error: function(jqXHR, textStatus, error) {window.alert(error);},
 			success: function(data, textStatus, jqXHR) {temp = data;}
@@ -71,7 +71,7 @@ function ClickOrPress(){
 
 $(document).ready(function() {
 
-	loadTemplate("rs-standard.rive.md");
+	loadTemplate("rs-standard.rive.txt");
 
 	// The Enter key.
 	$("#message").keydown(function(e) {
