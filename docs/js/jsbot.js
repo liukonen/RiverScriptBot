@@ -10,7 +10,7 @@ function loadTemplate(template) {
 	if (localStorage.getItem(template + "expire") === null || localStorage.getItem(template + "expire") < new (Date))
 	{
 		$.ajax({
-			url: "./" + template,//"/template/" + template,
+			url: "./" + template,
 				dataType: "text",	async: false,
 			error: function(jqXHR, textStatus, error) {window.alert(error);},
 			success: function(data, textStatus, jqXHR) {temp = data;}
@@ -22,16 +22,6 @@ function loadTemplate(template) {
 	}else{
 		temp = localStorage.getItem(template);
 	}
-
-
-	$.ajax({
-		url: "/template/" + template,	dataType: "text",	async: false,
-		error: function(jqXHR, textStatus, error) {window.alert(error);},
-		success: function(data, textStatus, jqXHR) {temp = data;}
-	});
-
-
-
 
 	if (temp.length == 0) {window.alert("You didn't enter any RiveScript code!");return false;}
 	// Initialize the bot.
