@@ -3,6 +3,11 @@ Date.prototype.addHours = function(h) {this.setTime(this.getTime() + (h*60*60*10
 /* RiveScript.com "Try Online" Script */
 window.bot = null;
 
+function speak(text){
+  var msg = new SpeechSynthesisUtterance(text);
+  window.speechSynthesis.speak(msg);
+}
+
 function loadTemplate(template) {
 
 	let temp;
@@ -10,7 +15,7 @@ function loadTemplate(template) {
 	if (localStorage.getItem(template + "expire") === null || localStorage.getItem(template + "expire") < new (Date))
 	{
 		$.ajax({
-			url: "../" + template,
+			url: "/" + template,
 				dataType: "text",	async: false,
 			error: function(jqXHR, textStatus, error) {window.alert(error);},
 			success: function(data, textStatus, jqXHR) {temp = data;}
