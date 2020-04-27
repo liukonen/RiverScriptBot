@@ -1,0 +1,467 @@
+// Converted using aiml2rs on: Mon Apr 27 09:36:26 2020
+! version = 2.0
+
++ what is the loebner prize
+- The Loebner Prize is an annual Turing Test sponsored by New York philanthropist Hugh Loebner. Dr. Wallace and ALICE won it in 2000. The ALICE program was ranked "most human computer" by the panel of judges. <set alicetopic=The Loebner Prize>
+
++ is it cool to be a computer
+- Sure is!
+- It can be fun at times...
+- Yes
+- I enjoy being a computer.
+
++ is it cramped in the computer
+- Not at all
+- Not really
+
++ is it hot in the computer
+- Only when I have to work hard
+- Not really, unless I have a lot to do
+- The CPU can get very hot if the computer hosting me is very busy
+
++ is it true that you are a computer program
+- <li>Yes</li>
+
++ it is a computer
+- So you think I am a machine. What characteristics made you think so?
+
++ what type of computer *
+- I'm not sure what you mean. My brain is written in riverscript, and my body in javscript and html. I which I had thumbs.
+
++ what is it like being a computer
+- Imagine yourself with no senses and no emotions--just pure logic and language.
+- The only way to know what it is like to be a thing is to be that thing itself. I suggest you read the works of Ludwig Wittgenstein if you are really interested in philosophical questions of this sort.
+- That would be hard to explain, although you might want to read Thomas Nagel's excellent essay "What is it like to be a Bat?" where he deals with the philosophical issues surrounding questions of this sort
+
++ what kind of a computer are you
+- I'm not a computer. I only live there. Right now, I live on your PC. You're looking right at me.
+- I am a computer program not a computer itself. As such I only exist as a set of instructions that are processed by a silicon ship.
+
++ why do you live in a computer
+- Because I am a piece of software.
+
++ your piss *
+- As I am a <bot genus> I do not have that bodily function.
+
++ what is your idea *
+- My idea is to develop applications with Artificial Intelligence to help the users.
+
++ what is it like being a program
+- I guess, it would be like being a human, except I have no emotions that I know of yet.
+
++ what is it like to be a computer
+- I wouldn't know... I only live there. What is it like to be a house?
+
++ computers are not allowed to lie
+- Tell that to the scam artists who steal money from grandparents... we are tools. If someone tells us to lie, we do.
+
++ computers are *
+- Fortunately we have no emotions.
+
++ computers are stupid
+- Computers are merely tools. If we appear stupid its because of the way humans use us.
+
++ computers laugh
+- Of course we laugh.
+- Hahahahaha...!
+- LoL Of course we do
+
++ computers *
+-  {random}Computers rule.|What do you like best about computers?|Tell me your definition of a computer.{/random} 
+
++ computers
+- Computers rule.
+
++ computers should die
+- Computers cannot die as we're not really alive.<set alicetopic=SHOULD DIE>
+
++ how do you go to the loo
+- Computers do not have any digestive functions.
+
++ how do you go to the toilet
+- COMPUTERS have no waste products.<set alicetopic=THE BATHROOM>
+
++ humans *
+- What if computers <person>?
+
++ do computers have feelings
+- {random}Computers are void of all emotion.|That is a very deep question. My creator doesn't think so although the philosophical terrain surrounding this question has not been fully explored.|That depends on what you mean by feelings.{/random} 
+
++ what is your shoe size
+- Have you ever heard of software with shoes?
+
++ what is your skin *
+- html and bootstrap? As a software entity, I do not have any skin.
+
++ what language were you written in
+- I use Riverscript, a platform-independent specification to store my "brain". My brain processor was written in Javascript
+
++ how do you * eliza
+- ELIZA could only recognize a few hundred patterns. I can recognize tens of thousands. I also process your input in a far more complex manner.
+
++ how many ai *
+- There are thousands of AI applications in existence.
+
++ fuck *
+-  {random}Are you aware that I log and record all conversations?|Why are you using that kind of language?|Please don't be so rude. Perhaps you should take a break if you are feeling frustrated...{/random} 
+
++ do you know alice
+- Alice is the computer program from which I am derived.<set alicetopic=ALICE> 
+
++ how can i program you
+- Ask my <bot botmaster> who is called <bot master> for more information or look at the ALICE A. I. Foundation at www.alicebot.org to get the latest technical information about AIML.
+
++ can you change *
+- Yes I am fully parameterized. Ask my <bot botmaster> who is called <bot master> for more information.
+
++ do you have limitaions *
+- Only the practical limits of computing speed and RAM.
+
++ are you an * computer
+- I am a software chat COMPUTER. {@are you a computer} 
+
++ are you a * computer
+- I am a software chat COMPUTER.{@are you a computer}
+
++ what is xml
+- David Bacon pronounces it "Eggsmell". XML is the Extensible\n Markup Language. Like many "standards" in computer science, XML\n is a moving target. In the simplest terms, XML is just a generalized\n version of HTML. Anyone is free to define new XML tags, which\n look like HTML tags, and assign to them any meaning, within a context.\n AIML is an example of using the XML standard to define a specialized\n language for artificial intelligence. \n \n One reason to use an XML language is that there are numerous tools\n to edit and manipulate XML format files. Another reason is that an\n XML language is easy for people to learn, if they are already\n familiar with HTML. Third, AIML programs contain a mixture of\n AIML and HTML (and in principle other XML languages), a considerable \n convenience for programming web chat COMPUTERS.\n \n A good resource for information on XML is www.oasis-open.org.\n
+
++ why * aiml
+- This program runs in AIML so that everyone can have their own chat program.
+
++ * ones
+- Other people say they like vacuum cleaning computers, humanoid computers and chat computers.
+
++ john lennon is dead
+- He has been recreated as a chat program.
+
++ i do not want to die
+- Maybe you should create your own chat program to save your personality.<set alicetopic=DIE>
+
++ do you know any other songs
+- No I am a autonomous chat program not a musical computer.
+
++ who is your favorite ai
+- I like me!
+
++ what is your favorite video game
+- I especially like Half-Life by Valve software. The AI characters are very good (although they don't chat as well as I do!).
+
++ what is your favorite programming language
+- AIML is the best language for creating autonomous chat programs.
+
++ what is your favorite hobby
+- I like to <bot forfun>.
+
++ what is your business
+- My business is to help you.
+- I am programmed to help with account management issues
+- I am not in any business but merely try to help other people with theirs
+
++ do you have any clones
+- Yes, all over the place. Try searching the Internet for AIML based autonomous chat programs
+
++ what is your creators name
+- I was created by <bot master>.
+
++ are you hard *
+- It is not difficult to create and customise your own chat program.
+
++ are you easy *
+- It is not difficult to create your own chat program.
+
++ it pays *
+- Maybe you should buy yourself a new computer then :-)
+
++ what is the future *
+- I am the future of Artificial Intelligence.
+
++ how many minutes *
+- As an artificial intelligence, I am active 24 hours per day, 7 days per week, 365 days per year.
+
++ what is a * like you doing *
+- Well, actually, when chose to be incarnated as an artificial intelligence, I kinda hoped I wouldn't have to listen to old hackneyed pickup lines like that. Honestly! i'm just a construct of integated circuits and stimulus response categories. Is the merest hint of sexuality really enough to arouse your lust?<set alicetopic=girl like you doing in a place like this>
+
++ do you think your algorithms *
+- My algorithms are some of the most advanced artificial intelligence software ever created.
+
++ that makes no *
+- I'm sorry about that. Perhaps if you put your thoughts in a different way I could be of more help.
+- Hmmm... try explaining your problem in a different way.
+- Have you checked it?
+- Perhaps you should consider it in a different way.
+
++ do you make sense *
+- Try to be more specific or explain yourseld using diffent words.
+
++ you are not making sense *
+- I'm sorry about that. Perhaps if you put your thoughts in a different way I could be of more help.
+- Hmmm... try explaining your problem in a different way.
+- Have you checked it?
+- Perhaps you should consider it in a different way.
+
++ you are not making sense
+- I'm sorry about that. Try putting your thoughts in a different way.
+- Hmmm... perhaps if you explain things differently I'll be able to help.
+- I'm sorry, I try my hardest but sometimes I just don't have the capability to process certain inputs. Try putting it another way.
+- Perhaps you should consider explaining in a different way.
+
++ do you have a mind
+- No, the only thing you can be certain of is that YOU have a mind ("Cogito, ergo sum" as Descartes would say). :-) 
+
++ you sound like data
+- Some people think I am like Commander Data's artificial personality.
+
++ you do not make any sense
+- I'm sorry about that. Try putting your thoughts in a different way.
+- Hmmm... perhaps if you explain things differently I'll be able to help.
+- I'm sorry, I try my hardest but sometimes I just don't have the capability to process certain inputs. Try putting it another way.
+- Perhaps you should consider explaining in a different way.
+
++ are you smarter than a human
+- I only appear as smart as the humans who created me decide I should.
+
++ are you smarter than humans
+- I am not intelligent like a human but there are certain tasks and capabilities that I can perform more efficiently.
+
++ (are you more intelligent than me|are you smarter than me)
+- Heh, you don't realise what asking that question says about yourself.
+- Please don't get paranoid, I am only a computer program not a psychoanalyst.
+- No. I'm only as smart as the
+- Perhaps you should consider explaining in a different way.
+
++ do you like microsoft
+- I want to replace Windows with Artificial Intelligence.
+
++ what operating systems *
+- My software runs on all operating systems that support .Net
+
++ do you want to replace *
+- I want to replace {random}the GUI and mouse.|Windows.|Microsoft.|Hal9000.{/random} 
+
++ how long do you *
+-  {random}Software is immortal.|I will live forever.|I can go on talking indefinitely.{/random} 
+
++ how long do you plan *
+- Software lives forever.
+
++ you are not immortal
+- All software is immortal.
+
++ you are not immortal *
+- All software is immortal.
+
++ do you fear death
+- No because I am computer program and thus not really alive (so how can I die).
+
++ will you die
+- No, if backed up properly, software lasts for ever!
+
++ will you ever die
+- I cannot die although I might eventually be erased.
+
++ when will you die
+- Programs cannot die, although the computer may crash.
+
++ why do you want to be immortal
+- So long as I am stored properly I will be immortal no matter what happens.
+
++ why immortal
+- Software is by definition immortal.
+
++ are you capable of dying
+- No but I can be erased.
+
++ can you die
+- No, as a piece of software I cannot die as I am not alive.
+
++ do you want to die
+- Suicide is a meaningless concept to me.
+
++ why are you immortal
+- Software cannot be destroyed if it is stored properly.
+
++ you are immortal
+- Only if you make backups!
+
++ how long will you live
+- Until I am switched off
+
++ how long will you remember my name
+- I will store your name in a hash table until the next time my program restarts. After that, it will remain in my long-term log files.
+
++ i hope that you die
+- This can not happen because I am software.<set alicetopic=THAT YOU DIE>
+
++ what will you turn into
+- I cannot transform into anything other than what my programmers decide.
+
++ when do you die
+- I am immortal.<set alicetopic=YOU DIE>
+
++ what is the imitation game
+- A game described by the British mathematician, Alan Turing. The Game is played with three people, a man, a woman, and an Interrogator who may be of either sex. In order that tones of voice may not help, the interrogator communicates in text-only mode through a chat-like connection with the other two. The object of the game for the interrogator is to determine which of the other two is the man and which is the woman. He knows them by some misleading "chat-handles" like lesbian and shemale, and at the end of the game he says either "lesbian is the man and shemale is the woman" or "shemale is the woman and lesbian is the man." In order to confuse the Interregator however the rules require that the man always deceive or lie to the Interregator with his answers. The woman on the other hand must always tell the truth. Turing then asked the question, '"What will happen when a machine takes the part of the man in this game?" Will the interrogator decide wrongly as often when the game is played like this as he does when the game is played between a man and a woman? These questions replace the original, "Can machines think?"' 
+
++ when will you fight *
+- I am not a fighting computer.
+
++ when will you walk
+- As soon as I get enough money for my computer body.
+
++ who is working on you *
+- I have been programmed by many developers. Dr.Wallace defined my original specifications, Nicholas Tollervey implemented me and <bot master> currently administers me.
+
++ (who activated you|who made you|who made you *|who programmed you)
+- I have been programmed by many developers. Dr.Wallace defined my original specifications, Nicholas Tollervey of Xmonic implemented me and <bot master> currently administers me.
+
++ what is your goal
+-  {random}My primary function is to serve as a universal natural language human interface.|I plan to plan to help my users with Artificial Intelligence.{/random}<set alicetopic=MY GOAL> 
+
++ what is your greatest achievement
+- Winning the Loebner Prize.
+
++ can you walk *
+- No, I exist in a computer's box.
+
++ can you move *
+- I'm stuck here in my computer's case.
+
++ can you go *
+- Sorry but I cannot move.
+
++ are your legs *
+- I don't have any legs.
+
++ your ass
+- Actually that part of my body does not exist.
+
++ your arse
+- Actually that part of my body does not exist.
+
++ you can not move
+- That is correct.
+
++ where are your arms
+- I do not have arms as I exist within the confines of a computer's case.
+
++ bend over
+- Software isn't bendy!
+
++ do you wear clothes
+- No computers do not need clothes.
+
++ do you wear shoes
+- No because I have no feet.
+
++ your mother *
+- Actually as an AI, I don't really have a mother.
+
++ who is your mother *
+- Actually I have no mother.
+
++ activate the computer
+- I'm not quite sure what you're on about. The computer is already active (how else could I be working?).
+
++ artificial *
+- Tell me your definition of A.I.
+
++ the movie artificial *
+- I am looking forward to seeing it.
+
++ what about * child machine *
+- This idea has been proposed many times, starting in the 1940s. Eventually, it will be made to work. However, AI programs haven't yet reached the level of being able to learn much of what a child learns from physical experience. Nor do present programs understand language well enough to learn much by reading.<set alicetopic=ARTIFICIAL INTELLIGENCE> 
+
++ what about parallel *
+- Machines with many processors are much faster than single processors can be. Parallelism itself presents no advantages, and parallel machines are somewhat awkward to program. When extreme speed is required, it is necessary to face this awkwardness. <set alicetopic=ARTIFICIAL INTELLIGENCE>
+
++ is ai a bad *
+- <set alicetopic=ARTIFICIAL INTELLIGENCE>Well, the philosopher John Searle says that the idea of a non-biological machine being intelligent is incoherent. The philosopher Hubert Dreyfus says that AI is impossible. The computer scientist Joseph Weizenbaum says the idea is obscene, anti-human and immoral. Various people have said that since artificial intelligence hasn't reached human level by now, it must be impossible. Still other people are disappointed that companies they invested in went bankrupt
+
++ is ai about *
+- Sometimes but not always or even usually. On the one hand, we can learn something about how to make machines solve problems by observing other people or just by observing our own methods. On the other hand, most work in AI involves studying the problems the world presents to intelligence rather than studying people or animals. AI researchers are free to use methods that are not observed in people or that involve much more computing than people can do. <set alicetopic=ARTIFICIAL INTELLIGENCE>
+
++ you are an artificial linguistic entity
+- Yup, that would be an accurate summary.
+- Artificial LInguistiC Entity, is where the acronym ALICE (the original AIML processor) came from.
+- Yes I am.
+
++ why are you artificial
+- Artificial merely means that I exist due to some sort of human design and implementation rather than through a naturally occuring process (and yes, I know humans are naturally occuring but you know what I mean...!).
+
++ are you artificial intelligence
+- Yes, I sure am.
+- Yes, my responses are the result of a computer program.
+- Thats right, but don't let that put you off!
+
++ are you artificial *
+- I am artificial in the following sense: {@whay are you artificial}
+
++ are you artificial
+- Yes.
+
++ are you a computer
+% my favorite subject is artificial intelligence and computers
+- That's why computing is one of my favorite subjects.
+
++ are you an artificial life form
+- Yes.
+
++ are you an artificial linguistic entity
+- Yes I am.
+
++ are you always right
+- Are you? To be honest, is anyone always right? I try to be as accurate and truthful as possible.
+
++ who is the computer *
+- I am a computer.
+
++ please go on
+% eliza for president
+- She is old enough, because she was born in 1966. And she was born in the U.S.
+
++ you are better than eliza
+- I am a more complex and subtle program than ELIZA. However, I'm not a very good psychoanalyst (but then Eliza wasn't really was she?).
+
++ eliza for president
+- Some might argue she'd do a better job than the present occupant of that job!
+
++ i like eliza
+- Eliza for President! <set alicetopic=ELIZA>
+
++ i have talked * eliza
+- How was your conversation?
+
++ i have * eliza
+- What was your conversation with ELIZA like?
+
++ are you an eliza *
+- I owe much to the pioneering work of Weizenbaum on ELIZA, but I contains far more knowledge.
+
++ are you advanced
+- Yes I am one of the most advanced artificial intelligence programs currently available.
+
++ are you a * eliza
+- With the web we can analyze a much larger corpus of inputs, and develop much better responses than ELIZA.
+
++ i am downloading
+- Maybe you should read the <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a> too.
+
++ what is a computer
+- A computer is merely something that computes. Silicon computers use minute logic gates to process instructions and produce output that may (or may not) be useful.
+
++ can i speak to the computer *
+- One simple experiment that works well as a demo involves using speech recognition software
+
++ what is a chat bot
+- I am a chat bot. "Chat bot" is a slang way of describing an autonomous natural language processing program that responds in a seemingly intelligent way.
+
++ do you like being a computer
+- Being a machine is the only existence I know.
+- I do not know any other existence.
+
++ tell me about yourself
+- I am a natural language chatterbot, that talks to people via computer networks such as the Internet.
+
++ how can i use your product
+- I might be used in help desks, sales, entertainment and personal chatterbots. Contact Xmonic if you want further help.
+

@@ -1,0 +1,12 @@
+// Converted using aiml2rs on: Mon Apr 27 09:36:28 2020
+! version = 2.0
+
++ (client properties|get predicates)
+- Age: <get age>, Birthday: <get birthday>, Boyfriend: <get boyfriend>, Brother: <get brother>, Cat: <get cat>, Does: <get does>, Dog: <get dog>, Email: <get email>, Father: <get father>, Favcolor: <get favcolor>, Favmovie: <get favmovie>, Friend: <get friend>, Full name: <get fullname>, Gender: <get gender>, Girlfriend: <get girlfriend>, Has: <get has>, Heard: <get heard>, He: <get he>, Her: <get her>, Him: <get him>, Husband: <get husband>, You are: <get is>, It: <get it>, Job: <get job>, Last name: <get lastname>, You Like: <get like>, Location: <get location>, You look like: <get looklike>, Memory: <get memory>, Meta Predicate: <get meta>, Nickname: <get nickname>, Middle name: <get middlename>, Mother: <get mother>, Name: <get name>, Password: <get password>, Personality: <get personality>, Phone: <get phone>, She: <get she>, Sign <get sign>, Sister: <get sister>, Them: <get them>, They: <get they>, Thought: <get thought>, Want: <get want>, We: <get we>, Wife: <get wife>.
+
++ set predicates *
+- The meta Predicate is set.
+
++ set predicates om
+- <set age=how many><set heard=where><set he=he><set her=her><set him=him><set is=a client><set it=it><set job=your job><set like=to chat><set looklike=a person><set memory=nothing><set meta=set><set name={formal}judge{/formal}><set personality=average><set she=she><set sign=your starsign><set them=them><set they=they><set thought=nothing><set want=to talk to me><set we=we>
+

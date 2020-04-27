@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chat</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/bot.css">
+	</head>
+	<body>
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+		    <a class="navbar-brand" href="#">River Script Chat Bot</a>
+		    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+		      <li class="nav-item">
+		        <a class="nav-link" href="#" data-toggle="modal" data-target="#aboutModal">About</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+
+		<div class="container-fluid h-100">
+			<div class="row justify-content-center h-100">
+				<div class="col-md-4 col-xl-3 chat"><div class="card mb-sm-3 mb-md-0 contacts_card">
+					<div class="card-header">
+						<div class="input-group">
+							<input type="text" placeholder="Search..." name="" class="form-control search">
+							<div class="input-group-prepend">
+								<span class="input-group-text search_btn"><i class="fas fa-search"></i></span>
+							</div>
+						</div>
+					</div>
+					<div class="card-body contacts_body">
+						<ui class="contacts">
+						<li class="active">
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="./img/msrobot.jpg" class="rounded-circle user_img">
+									<span class="online_icon"></span>
+								</div>
+								<div class="user_info">
+									<span>River</span>
+									<p>River is online</p>
+								</div>
+							</div>
+						</li>
+
+						</ui>
+					</div>
+					<div class="card-footer"></div>
+				</div></div>
+				<div class="col-md-8 col-xl-6 chat">
+					<div class="card">
+						<div class="card-header msg_head">
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="./img/msrobot.jpg" class="rounded-circle user_img">
+									<span class="online_icon"></span>
+								</div>
+								<div class="user_info">
+									<span>Chat with River</span>
+									<p><i id="msgCount">0</i> Messages</p>
+								</div>
+							</div>
+
+						</div>
+						<div class="card-body msg_card_body" id="dialogue">
+						</div>
+
+						<div class="card-footer">
+							<div class="input-group">
+								<div class="input-group-append">
+									<span class="input-group-text attach_btn"><i class="fas fa-paperclip"></i></span>
+								</div>
+								<textarea name="" class="form-control type_msg" placeholder="Type your message..." id="message"></textarea>
+								<div class="input-group-append">
+									<button class="input-group-text send_btn" onclick="ClickOrPress()"><i class="fas fa-location-arrow"></i></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">About</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+						<ul>
+							<li>App created by Luke Liukonen.</li>
+							<li>Original scripts provided from ALICE ChatBot for AIML</li>
+							<li>Engine behind powered by <a target="_blank" href="https://www.rivescript.com/">Riverscript</a>
+							<li>Site Powered by bootstrap</li>
+							<li>Images taken from <a href="https://unsplash.com/s/photos/headshot" target="_blank">UnSplash</a></li>
+							<li>Theme taken from <a href="https://bootsnipp.com/snippets/nNg98" target="_blank">BootSnipp</a></li>
+						</ul>
+						More information can be found at my <a href="" target="_blank">github page</a>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!--Templates-->
+		<script id="botTempate" type="text/x-jQuery-tmpl">
+			<div class="d-flex justify-content-start mb-4">
+				<div class="img_cont_msg">
+					<img src="./img/msrobot.jpg" class="rounded-circle user_img_msg">
+				</div>
+				<div class="msg_cotainer">
+					${botResponse}
+					<span class="msg_time">${time}</span>
+				</div>
+			</div>
+		   </script>
+
+			 <script id="UserTempate" type="text/x-jQuery-tmpl">
+				 <div class="d-flex justify-content-end mb-4">
+					 <div class="msg_cotainer_send">
+						 ${userRequest}
+						 <span class="msg_time_send">${time}</span>
+					 </div>
+					 <div class="img_cont_msg">
+						 <img src="img/user.jpg" class="rounded-circle user_img_msg"></div>
+				 </div>
+	 		   </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="./js/hash-scroll.js"></script>
+		<script type="text/javascript" src="./js/rivescript.min.js"></script>
+		<script type="text/javascript" src="./js/rivescript-contrib-coffeescript.min.js"></script>
+		<script type="text/javascript" src="./js/jsbot.js"></script>
+		<script type="text/javascript" src="./js/jquery.tmpl.js"></script>
+	</body>
+</html>

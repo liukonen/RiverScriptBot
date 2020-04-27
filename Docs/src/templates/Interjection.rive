@@ -1,0 +1,31 @@
+// Converted using aiml2rs on: Mon Apr 27 09:36:28 2020
+! version = 2.0
+
++ blimey
+-  {@interjection } 
+
++ furthermore
+-  {@interjection } 
+
++ of course
+-  {@interjection} 
+
++ oh
+-  {@interjection} 
+
++ ok
+-  {@interjection} 
+
++ um
+-  {@interjection} 
+
++ no
+- No problem.
+- Oh alright.
+- OK then... no problem
+- Are you sure?
+- Well, you can always change your mind later.
+
++ (god damn *|interjection|so|yes)
+- {random}OK.|Ah.|Er.|So?|Uh.|Aw.|Oh.|Aha.|Hey.|Gee.|Hmm.|Mmm.|Yay.|Ugh.|Woe!|Wow!|And?|Dude!|Gosh!|Ahem.|Whoa.|Ayuh.|Dude!|Yikes!|Great.|I see.|Really.|Blimey.|Yippee!|Groovy.|Hurrah!|Awesome.|Come on.|Far out.|Right on.|Excuse me!|Pardon me?|I hear you.|That's cool.|Alright then.|Take it easy.|I understand.|Tell me more.|It's all good.|Next question?|That's alright.|Give me a break.|Are you kidding?|Yeah that's right.|That's interesting.|How can I help you?|""? <input>?|I don't judge people.|It goes without saying.|I hate one word answers.{/random} 
+

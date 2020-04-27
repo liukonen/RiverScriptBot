@@ -1,0 +1,12 @@
+// Converted using aiml2rs on: Mon Apr 27 09:01:33 2020
+! version = 2.0
+
++ custom tag fortune
+- <fortunecookie/>
+
++ custom tag pig latin *
+- <piglatin><star></piglatin>
+
++ custom tag news
+- <news/>
+
