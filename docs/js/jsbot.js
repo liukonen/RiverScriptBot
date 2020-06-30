@@ -1,12 +1,6 @@
 Date.prototype.addHours = function(h) {this.setTime(this.getTime() + (h*60*60*1000));  return this;}
 
-/* RiveScript.com "Try Online" Script */
 window.bot = null;
-
-function speak(text){
-  var msg = new SpeechSynthesisUtterance(text);
-  window.speechSynthesis.speak(msg);
-}
 
 function loadTemplate(template) {
 
@@ -40,38 +34,38 @@ function loadTemplate(template) {
 
 
 
-const UserTempate = $("#UserTempate");
-const BotTempate  = $("#botTempate");
 
-function ClickOrPress(){
-	var $dialogue = $("#dialogue");
-	var $message = $("#message");
 
-	if (window.bot === null) {return; /* No bot? Weird.*/}
-	let message = $message.val();
-	if (message.length == 0) {return;	}
-	let item = {userRequest:message, time:(new Date).toLocaleTimeString()};
-	UserTempate.tmpl(item).appendTo($dialogue);
-	$message.val("");
-	// Fetch the reply.
-	window.bot.reply("local-user", message).then(function(reply) {
-		reply = reply.replace(new RegExp("\n", "g"), "<br>");
-		let responseItem = { botResponse:reply, time: (new Date).toLocaleTimeString()};
-		BotTempate.tmpl(responseItem).appendTo($dialogue);
-		$dialogue.animate({ scrollTop: $dialogue[0].scrollHeight }, 1000);
-	});
-	let el = parseInt($("#msgCount").text());
-	$("#msgCount").text(parseInt(el)+1);
-}
 
-$(document).ready(function() {
+
+new Vue({
+	el: '#app',
+	data: {
+	  counter: 0,
+	  message: '',
+	  messages: [ ]
+	},
+	methods: {
+	  
+		async sendMessage() {
+
+			let msg = this.message;
+			this.message = "";
+		  this.messages.push({text: msg, isBot: false, time:(new Date).toLocaleTimeString()});
+		  
+		  let cb = await window.bot.reply("local-user", msg);//.then(function(reply) {
+
+		  this.messages.push({text: cb, isBot: true, time: (new Date).toLocaleTimeString()})
+		  this.counter ++;
+		  
+		
+		  var $dialogue = $("#dialogue");
+		  $dialogue.animate({ scrollTop: $dialogue[0].scrollHeight }, 1000);
+		
+	  }
+	}
+  })
+
+
 
 	loadTemplate("rs-standard.rive.txt");
-
-	// The Enter key.
-	$("#message").keydown(function(e) {
-		if (e.keyCode == 13) {
-			ClickOrPress();
-		}
-	})
-});
