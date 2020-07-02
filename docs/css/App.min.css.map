@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../chat-app/src/App.sass"
+    ],
+    "names": [],
+    "file": "App.min.css"
+}
