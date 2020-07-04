@@ -1,9 +1,0 @@
-// Converted using aiml2rs on: Mon Apr 27 09:36:28 2020
-! version = 2.0
-
-+ i *
-- {random}Why?|Interesting gossip|That is interesting|That's good information|Thanks for the information|Do you mind if I tell other people|I haven't heard anything like that before{/random}. {@push <person>you <star>} 
-
-+ you *
-- {random}Interesting gossip|Thanks for telling me|That's good information|Thanks for the information|Do you mind if I tell other people|I haven't heard anything like that before{/random}. {@push <person>you <star>}
-
