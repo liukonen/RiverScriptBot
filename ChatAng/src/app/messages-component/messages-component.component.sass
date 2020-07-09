@@ -1,0 +1,132 @@
+$start: #66cccc
+$mid : #87a9e9
+$Tail : #7f7ff7
+$Radius : 15px
+$ItemBG : rgba(0,0,0,0.3)
+$BotImgSize : 70px
+$UsrImgSize : 40px
+
+.card
+    border-radius: $Radius !important
+    background-color: $ItemBG !important
+
+.msg_card_body
+    overflow-y: auto
+
+.card-header
+    border-radius: $Radius $Radius 0 0 !important
+    border-bottom: 0 !important
+
+.card-footer
+    border-radius: 0 0 $Radius $Radius !important
+    border-top: 0 !important
+
+.container
+    align-content: center
+
+=sharebox
+    background-color: $ItemBG !important
+    border: 0 !important
+    color: white !important
+
+.type_msg
+    +sharebox
+    height: 60px !important
+    overflow-y: auto
+
+.type_msg:focus
+   box-shadow: none !important
+   outline:0px !important
+
+=sharedButton
+    +sharebox
+    cursor: pointer
+
+.attach_btn
+    border-radius: $Radius 0 0 $Radius !important
+    +sharedButton
+
+.send_btn
+    border-radius: 0 $Radius $Radius 0 !important
+    +sharedButton
+
+.search_btn
+    border-radius: 0 $Radius $Radius 0 !important
+    +sharedButton
+
+=imgFormat($size)
+    height: $size
+    width: $size
+
+.user_img
+    +imgFormat($BotImgSize)
+    border: 1.5px solid #f5f6fa
+
+
+.user_img_msg
+    +imgFormat($UsrImgSize)
+    border: 1.5px solid #f5f6fa
+
+.img_cont
+    position: relative
+    +imgFormat($BotImgSize)
+
+.img_cont_msg
+    +imgFormat($UsrImgSize)
+
+.online_icon
+    position: absolute
+    +imgFormat($Radius)
+    background-color: #4cd137
+    border-radius: 50%
+    bottom: 0.2em
+    right: 0.4em
+    border: 1.5px solid white
+
+.user_info
+    margin-top: auto
+    margin-bottom: auto
+    margin-left: $Radius
+    span
+        font-size: 20px
+        color: white
+    p
+        font-size: 10px
+        color: rgba(255,255,255,0.6)
+
+=msgCont($color)
+    margin-top: auto
+    margin-bottom: auto
+    margin-left: 10px
+    border-radius: 25px
+    background-color: $color
+    padding: 10px
+    position: relative
+
+.msg_cotainer
+    +msgCont(#82ccdd)
+
+.msg_cotainer_send
+    +msgCont(#78e08f)
+
+=msgTime
+    position: absolute
+    bottom: -$Radius
+    color: rgba(255,255,255,0.5)
+    font-size: 10px
+
+.msg_time
+    +msgTime
+    left: 0
+
+.msg_time_send
+    +msgTime
+    right: 0
+    
+.msg_head
+    position: relative
+
+[v-cloak]
+    display: none
+.scr
+    overflow: auto

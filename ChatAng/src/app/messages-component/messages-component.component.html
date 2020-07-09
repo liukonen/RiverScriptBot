@@ -1,0 +1,56 @@
+<div class="container-fluid h-100" id="app">
+    <div class="row justify-content-center  h-100">
+  <div class="col-12 card h-100">
+        <div class="card-header msg_head">
+            <div class="d-flex bd-highlight justify-content-between">
+                <div class="img_cont">
+                    <img src="../../assets/images/msrobot.png" class="rounded-circle user_img" />
+                    <span class="online_icon"></span>
+                </div>
+            <div class="user_info">
+                <span>Chat with River</span>
+                <p><i id="msgCount">{{Counter}}</i> Messages</p>
+            </div>
+                <a  href="#" class=" text-light" data-toggle="modal" data-target="#aboutModal"><i class="fas fa-info-circle fa-3x"></i></a>
+            </div>
+        </div>
+        <div class="card-body msg_card_body scr" id="dialogue" #scrollMe> 
+            <div *ngFor="let message of messages">
+                <div *ngIf="!message.UserIsHuman; else elseBlock" class="d-flex justify-content-start mb-4">
+                    <div class="img_cont_msg">
+                        <img src="../../assets/images/msrobot.png" class="rounded-circle user_img_msg" />
+                    </div>
+                    <div class="msg_cotainer">
+                        <p>{{message.Message}}</p>
+                        <span class="msg_time">{{message.timestamp.toLocaleTimeString()}}</span>
+                    </div>
+                </div>
+                <ng-template #elseBlock>        
+                    <div class="d-flex justify-content-end mb-4">
+                        <div class="msg_cotainer_send">
+                            <p>{{message.Message}}</p>
+                            <span class="msg_time_send">{{message.timestamp.toLocaleTimeString()}}</span>
+                        </div>
+                        <div class="img_cont_msg">
+                            <img src="../../assets/images/user.png" class="rounded-circle user_img_msg">
+                        </div>
+                    </div>	
+                </ng-template>
+            </div>
+        </div>
+        <div class="card-footer">
+            <form (ngSubmit)="sendMessage(messageText)">
+                <div class="input-group">
+                    <div class="input-group-append">
+                        <span class="input-group-text attach_btn"></span>
+                    </div>
+                    <input type="text" class="form-control type_msg" [(ngModel)]="messageText" name="mgText" placeholder="Type your message..." >
+                    <div class="input-group-append">
+                        <button type="submit" class="input-group-text send_btn"> Send<i class="fas fa-location-arrow"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div> 
+</div>  
